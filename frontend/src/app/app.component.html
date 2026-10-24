@@ -1,0 +1,12 @@
+<main class="container">
+  <h1>Blog Posts</h1>
+
+  <div class="post" *ngFor="let post of posts">
+    <button class="post-title" (click)="toggle(post.id)">
+      {{ post.title }}
+    </button>
+    <p class="post-desc" *ngIf="selectedId === post.id">
+      {{ post.description }}
+    </p>
+  </div>
+</main>

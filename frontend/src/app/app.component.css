@@ -1,0 +1,41 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #2d3a8c;
+  margin-bottom: 24px;
+}
+
+.post {
+  margin-bottom: 12px;
+}
+
+.post-title {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #f1f3ff;
+  border: 1px solid #d5d9f5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-title:hover {
+  background: #e3e7ff;
+}
+
+.post-desc {
+  margin: 8px 4px 0;
+  padding: 12px 16px;
+  background: #fff;
+  border-left: 4px solid #2d3a8c;
+  color: #444;
+  line-height: 1.6;
+}
